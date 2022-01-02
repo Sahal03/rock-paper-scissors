@@ -9,7 +9,7 @@ def game(num):
     y = random.choice(BOT)
     x = input('Rock, Paper or Scissors:\n')
     time.sleep(0.5)
-    print("The computer played",y)
+    print("Player 2 played",y)
     if x.upper() == y:
         print("It's a tie!")
     elif x.upper() == 'SCISSORS':
