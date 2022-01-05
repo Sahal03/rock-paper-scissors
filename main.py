@@ -15,7 +15,7 @@ def game(num):
     y = random.choice(BOT)
 #user input
     x = input('Rock, Paper or Scissors:\n')
-
+    print()
 #small buffer for clarity
     time.sleep(0.5)
     
